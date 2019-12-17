@@ -8,4 +8,8 @@ public class NormalObject implements INormalObject{
     public void operation(String desc) {
         System.out.println("NormalObject.operation()=============" + desc);
     }
+
+    public void method(String desc) {
+        System.out.println("NormalObject.method()=============" + desc);
+    }
 }
